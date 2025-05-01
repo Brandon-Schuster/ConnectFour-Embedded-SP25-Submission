@@ -374,7 +374,7 @@ void DrawDebugBug(void)
         {
             if (x * x + y * y <= 25)
             {
-                LCD_Draw_Pixel(208 + y, 300 - x, LCD_COLOR_DARKGREEN);
+                LCD_Draw_Pixel(208 + y, 300 - x, LCD_COLOR_GREEN);
             }
         }
     }

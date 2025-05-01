@@ -1,6 +1,6 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
-# Toolchain: GNU Tools for STM32 (13.3.rel1)
+# Toolchain: GNU Tools for STM32 (12.3.rel1)
 ################################################################################
 
 -include ../makefile.init
@@ -34,34 +34,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := ECEN2370_StarterCode_SP25
+BUILD_ARTIFACT_NAME := BSchuster_Connect-Four
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-ECEN2370_StarterCode_SP25.elf \
+BSchuster_Connect-Four.elf \
 
 MAP_FILES += \
-ECEN2370_StarterCode_SP25.map \
+BSchuster_Connect-Four.map \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-ECEN2370_StarterCode_SP25.list \
+BSchuster_Connect-Four.list \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: ECEN2370_StarterCode_SP25.elf secondary-outputs
+main-build: BSchuster_Connect-Four.elf secondary-outputs
 
 # Tool invocations
-ECEN2370_StarterCode_SP25.elf ECEN2370_StarterCode_SP25.map: $(OBJS) $(USER_OBJS) C:\Users\brand\Documents\ConnectFour-Embedded-SP25\STM32F429ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "ECEN2370_StarterCode_SP25.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\brand\Documents\ConnectFour-Embedded-SP25\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ECEN2370_StarterCode_SP25.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+BSchuster_Connect-Four.elf BSchuster_Connect-Four.map: $(OBJS) $(USER_OBJS) C:\Users\Brandon\ Schuster\Documents\ConnectFour-Embedded-SP25-Submission\STM32F429ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "BSchuster_Connect-Four.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Brandon Schuster\Documents\ConnectFour-Embedded-SP25-Submission\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BSchuster_Connect-Four.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -70,14 +70,14 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-ECEN2370_StarterCode_SP25.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "ECEN2370_StarterCode_SP25.list"
+BSchuster_Connect-Four.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "BSchuster_Connect-Four.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) ECEN2370_StarterCode_SP25.elf ECEN2370_StarterCode_SP25.list ECEN2370_StarterCode_SP25.map default.size.stdout
+	-$(RM) BSchuster_Connect-Four.elf BSchuster_Connect-Four.list BSchuster_Connect-Four.map default.size.stdout
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)
