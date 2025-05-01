@@ -1,0 +1,10 @@
+../Core/Src/screens.c:26:6:StartScreen	32	static
+../Core/Src/screens.c:68:6:GameScreen	32	static
+../Core/Src/screens.c:95:6:DrawCircleAtCell	32	static
+../Core/Src/screens.c:102:6:DrawToken	32	static
+../Core/Src/screens.c:118:6:DrawCursor	32	static
+../Core/Src/screens.c:131:6:EraseCursor	24	static
+../Core/Src/screens.c:137:6:EndScreen	120	static
+../Core/Src/screens.c:213:6:Debug_Mode	48	static
+../Core/Src/screens.c:307:6:DrawDebugGrid	56	static
+../Core/Src/screens.c:368:6:DrawDebugBug	32	static

@@ -1,0 +1,11 @@
+../Core/Src/game.c:23:6:HAL_GPIO_EXTI_Callback	2
+../Core/Src/game.c:31:6:Game_Init	1
+../Core/Src/game.c:36:6:Restart_Game	1
+../Core/Src/game.c:41:6:Start_Menu	14
+../Core/Src/game.c:78:6:Start_Game	11
+../Core/Src/game.c:168:6:ColumnHasSpace	3
+../Core/Src/game.c:178:5:Game_PlacingToken	10
+../Core/Src/game.c:245:6:BoardIsFull	4
+../Core/Src/game.c:261:6:Game_CleanBoard	3
+../Core/Src/game.c:272:5:Game_DropToken	3
+../Core/Src/game.c:287:6:Game_CheckWin	25

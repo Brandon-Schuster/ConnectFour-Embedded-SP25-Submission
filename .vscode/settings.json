@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "applicationcode.h": "c",
+        "main.h": "c",
+        "stm32f4xx_hal.h": "c",
+        "button_driver.h": "c"
+    }
+}

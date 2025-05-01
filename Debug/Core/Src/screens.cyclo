@@ -1,0 +1,10 @@
+../Core/Src/screens.c:26:6:StartScreen	7
+../Core/Src/screens.c:68:6:GameScreen	7
+../Core/Src/screens.c:95:6:DrawCircleAtCell	1
+../Core/Src/screens.c:102:6:DrawToken	3
+../Core/Src/screens.c:118:6:DrawCursor	2
+../Core/Src/screens.c:131:6:EraseCursor	1
+../Core/Src/screens.c:137:6:EndScreen	16
+../Core/Src/screens.c:213:6:Debug_Mode	16
+../Core/Src/screens.c:307:6:DrawDebugGrid	13
+../Core/Src/screens.c:368:6:DrawDebugBug	8

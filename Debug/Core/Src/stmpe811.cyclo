@@ -1,0 +1,14 @@
+../Core/Src/stmpe811.c:35:18:STMPE811_Init	2
+../Core/Src/stmpe811.c:139:9:STMPE811_Read	1
+../Core/Src/stmpe811.c:148:6:STMPE811_Write	1
+../Core/Src/stmpe811.c:155:18:STMPE811_ReadTouch	16
+../Core/Src/stmpe811.c:217:6:STMPE811_DetermineTouchPosition	5
+../Core/Src/stmpe811.c:239:6:isSTMPE811_Ready	2
+../Core/Src/stmpe811.c:251:6:verifyHAL_I2C_IS_OKAY	2
+../Core/Src/stmpe811.c:258:13:I2C3_Init	2
+../Core/Src/stmpe811.c:283:13:I2C3_MspInit	1
+../Core/Src/stmpe811.c:312:6:I2C3_Write	1
+../Core/Src/stmpe811.c:321:6:I2C3_Read	1
+../Core/Src/stmpe811.c:329:6:I2C3_MulitByteRead	1
+../Core/Src/stmpe811.c:335:10:TM_STMPE811_ReadX	6
+../Core/Src/stmpe811.c:364:10:TM_STMPE811_ReadY	5

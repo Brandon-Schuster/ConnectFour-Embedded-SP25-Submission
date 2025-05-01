@@ -1,0 +1,11 @@
+../Core/Src/game.c:23:6:HAL_GPIO_EXTI_Callback	16	static
+../Core/Src/game.c:31:6:Game_Init	8	static
+../Core/Src/game.c:36:6:Restart_Game	8	static
+../Core/Src/game.c:41:6:Start_Menu	24	static
+../Core/Src/game.c:78:6:Start_Game	56	static
+../Core/Src/game.c:168:6:ColumnHasSpace	24	static
+../Core/Src/game.c:178:5:Game_PlacingToken	40	static
+../Core/Src/game.c:245:6:BoardIsFull	16	static
+../Core/Src/game.c:261:6:Game_CleanBoard	16	static
+../Core/Src/game.c:272:5:Game_DropToken	24	static
+../Core/Src/game.c:287:6:Game_CheckWin	48	static
